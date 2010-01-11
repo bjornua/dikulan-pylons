@@ -15,8 +15,14 @@ def make_map():
 
     map.connect('/error/{action}', controller='error')
     map.connect('/error/{action}/{id}', controller='error')
-
-    map.connect('/{controller}/{action}')
-    map.connect('/{controller}/{action}/{id}')
+    
     map.connect('/', controller='index', action='index')
+    map.connect('/contact', controller='contact', action='index')
+    map.connect('/food-options', controller='foodoptions', action='index')
+    map.connect('/gallery', controller='gallery', action='index')
+    map.connect('/information', controller='information', action='index')
+    map.connect('/news', controller='news', action='index')
+    map.connect('/rules', controller='rules', action='index')
+    map.connect('/seatbooking', controller='seatbooking', action='index')
+    map.connect('/tournaments', controller='tournaments', action='index')
     return map

@@ -7,6 +7,6 @@ from dikulan.lib.base import BaseController, render
 
 log = logging.getLogger(__name__)
 
-class IndexController(BaseController):
+class GalleryController(BaseController):
     def index(self):
-        return render('/pages/frontpage.mako')
+        return render('/pages/gallery.mako')

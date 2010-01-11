@@ -18,7 +18,7 @@
                         <li class="menu-item"><a href="/food-options">Madmuligheder     </a></li>
                         <li class="menu-item"><a href="/tournaments" >Turneringer/events</a></li>
                         <li class="menu-item"><a href="/rules"       >Regler            </a></li>
-                        <li class="menu-item"><a href="/seat-booking">Pladsreservation  </a></li>
+                        <li class="menu-item"><a href="/seatbooking">Pladsreservation  </a></li>
                         <li class="menu-item"><a href="/gallery"     >Galleri           </a></li>
                         <li class="menu-item"><a href="/contact"     >Kontakt           </a></li>
                         <li class="menu-item"><a href="/news"        >Nyheder           </a></li>
