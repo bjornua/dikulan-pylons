@@ -11,6 +11,7 @@ def setup_app(command, conf, vars):
     
     if not os.path.exists("data/database.sqlite"):
         log.debug("No database-file present, create new database-file.")
+        os.makedirs("data")
         db = sqlite3.connect("data/database.sqlite")
         c = db.cursor()
         
