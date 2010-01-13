@@ -24,5 +24,6 @@ def make_map():
     map.connect('/news', controller='news', action='index')
     map.connect('/rules', controller='rules', action='index')
     map.connect('/seatbooking', controller='seatbooking', action='index')
+    map.connect('/seatbooking/statusimage', controller='seatbooking', action='statusimage')
     map.connect('/tournaments', controller='tournaments', action='index')
     return map
