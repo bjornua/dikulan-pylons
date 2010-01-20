@@ -1,5 +1,5 @@
 <%inherit file="/xhtml11.mako"/>
-<head>
+    <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>DIKULAN - The Challenge</title>
         <link media="screen" rel="stylesheet" type="text/css" href="/css/underside/screen.css"/>
@@ -13,15 +13,16 @@
             <div id="middle">
                 <div id="middle-content">                    
                     <ul id="menu">
-                        <li class="menu-item"><a href="/"            >Forside           </a></li>
-                        <li class="menu-item"><a href="/information" >Information       </a></li>
-                        <li class="menu-item"><a href="/food-options">Madmuligheder     </a></li>
-                        <li class="menu-item"><a href="/tournaments" >Turneringer/events</a></li>
-                        <li class="menu-item"><a href="/rules"       >Regler            </a></li>
-                        <li class="menu-item"><a href="/seatbooking">Pladsreservation  </a></li>
-                        <li class="menu-item"><a href="/gallery"     >Galleri           </a></li>
-                        <li class="menu-item"><a href="/contact"     >Kontakt           </a></li>
-                        <li class="menu-item"><a href="/news"        >Nyheder           </a></li>
+                        <li class="menu-item"><a href="/">Forside</a></li>
+                        <li class="menu-item"><a href="/information">Information</a></li>
+                        <li class="menu-item"><a href="/food-options">Madmuligheder</a></li>
+                        <li class="menu-item"><a href="/tournaments">Turneringer/events</a></li>
+                        <li class="menu-item"><a href="/rules">Regler</a></li>
+                        <li class="menu-item"><a href="/seatbooking">Pladsreservation</a></li>
+                        <li class="menu-item"><a href="/gallery">Galleri</a></li>
+                        <li class="menu-item"><a href="/contact">Kontakt</a></li>
+                        <li class="menu-item"><a href="/news">Nyheder</a></li>
+                        <li class="menu-item"><a href="/user/login">Login</a></li>
                     </ul>
                     <div id="main-content">
                         ${next.body()}
