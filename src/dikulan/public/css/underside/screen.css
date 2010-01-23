@@ -1,6 +1,6 @@
 @import url("../lib/base.css");
 html {
-	overflow-y: scroll;
+	overflow: scroll;
 }
 
 body {
