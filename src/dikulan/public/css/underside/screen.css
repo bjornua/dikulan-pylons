@@ -125,3 +125,28 @@ body {
 #main-content a {
     text-decoration: underline;
 }
+
+/* LOGIN BOX */
+#main-content .login_th_username {
+	text-align: left;
+}
+#main-content .login_th_password {
+    text-align: left;
+}
+#main-content .login_submit_cell {
+    text-align: right;
+}
+
+/* Register BOX */
+#main-content .register_th_username {
+    text-align: left;
+}
+#main-content .register_th_password {
+    text-align: left;
+}
+#main-content .register_th_ticketcode {
+    text-align: left;
+}
+#main-content .register_submit_cell {
+    text-align: right;
+}

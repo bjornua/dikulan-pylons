@@ -26,4 +26,8 @@ def make_map():
     map.connect('/seatbooking', controller='seatbooking', action='index')
     map.connect('/seatbooking/statusimage', controller='seatbooking', action='statusimage')
     map.connect('/tournaments', controller='tournaments', action='index')
+    map.connect('/user/login', controller='user', action='login')
+    map.connect('/user/login/do', controller='user', action='dologin')
+    map.connect('/user/register', controller='user', action='register')
+    map.connect('/user/register/do', controller='user', action='doregister')
     return map
