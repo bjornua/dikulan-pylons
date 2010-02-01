@@ -6,7 +6,6 @@ from pylons.controllers.util import abort, redirect_to
 from dikulan.lib.base import BaseController, render
 
 from dikulan.model.seatbooking import seatbooking
-import sqlite3
 
 log = logging.getLogger(__name__)
 
@@ -14,7 +13,7 @@ class SeatbookingController(BaseController):
     def index(self):
         return render("/pages/seatbooking.mako")
 
-    def statusimage(self): 
-        db = sqlite3.connect("data/database.sqlite")
+    def statusimage(self):
+        return "Temporarily out of action!"
         return seatbooking.get_statusimage(db)
 
