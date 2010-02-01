@@ -1,5 +1,5 @@
 """Setup the dikulan application"""
-import logging, os, sqlite3
+import logging, os, mysql
 
 from dikulan.config.environment import load_environment
 
@@ -10,6 +10,6 @@ def setup_app(command, conf, vars):
     load_environment(conf.global_conf, conf.local_conf)
     log.debug("Setting up application.")    
     
-    
+    print conf
     
     log.debug("Done setting up application.")

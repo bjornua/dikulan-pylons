@@ -1,3 +1,0 @@
-include dikulan/config/deployment.ini_tmpl
-recursive-include dikulan/public *
-recursive-include dikulan/templates *
